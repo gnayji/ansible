@@ -1,0 +1,5 @@
+- name: Remove php
+  yum: name=php state=absent
+
+- name: Remove php-mysql
+  yum: name=php-mysql state=absent

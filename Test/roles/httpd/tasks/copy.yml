@@ -1,0 +1,6 @@
+
+- name: Copy configuration file
+  copy: src=httpd.conf dest=/etc/httpd/conf/httpd2.conf
+
+- name: Copy index.php file 
+  copy: src=index.php dest=/var/www/html/index.php

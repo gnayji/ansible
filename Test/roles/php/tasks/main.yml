@@ -1,0 +1,6 @@
+
+- include: install_php.yml
+  tags: installphp
+
+- include: remove_php.yml
+  tags: removephp

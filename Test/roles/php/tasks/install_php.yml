@@ -1,0 +1,5 @@
+- name: Install php
+  yum: name=php
+
+- name: INstall php-mysql
+  yum: name=php-mysql

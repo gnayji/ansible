@@ -1,0 +1,5 @@
+- name: Stop httpd
+  service: name=httpd enabled=no state=stopped
+
+- name: Remove httpd
+  yum: name=httpd state=absent

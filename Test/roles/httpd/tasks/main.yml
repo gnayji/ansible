@@ -1,0 +1,7 @@
+
+- include: install_httpd.yml
+  tags: installhttpd
+- include: copy.yml
+  tags: copyhttpd
+- include: remove_httpd.yml
+  tags: removehttpd

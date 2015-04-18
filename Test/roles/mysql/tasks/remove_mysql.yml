@@ -1,0 +1,6 @@
+
+- name: Stop mysql
+  service: name=mysqld enabled=no state=stopped
+
+- name: Remove mysql
+  yum: name=mysql-server state=absent
